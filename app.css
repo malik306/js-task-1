@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+table tr {
+  cursor: pointer;
+}
+
+td,
+th {
+  padding: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+}
+
+button {
+  padding: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #f1c40f;
+  color: white;
+}
